@@ -14,10 +14,15 @@ What I Was Trying to Achieve
 Tools I Used
 
 Playwright — for writing and running the automated tests
+
 JavaScript — the scripting language for the test code
+
 Node.js — runtime environment to execute everything
+
 Git & GitHub — version control and project management
+
 Google Sheets — for organizing test cases and bug reports
+
 VS Code — where all the code was written
 
 
@@ -25,9 +30,13 @@ What I Tested
 I focused on the areas that matter most from a user's perspective:
 
 -Core UI functionality and navigation flows
+
 -Form validation — both valid inputs and intentionally bad ones
+
 -Input handling and error messages
+
 -End-to-end user journeys
+
 -What happens when users do unexpected things
 
 How I Approached It
@@ -48,29 +57,42 @@ Bug Reports
 All defects I found are logged in the bug report files with:
 
 Step-by-step reproduction instructions
+
 Clear expected vs. actual results
+
 Severity and priority ratings based on how much impact the issue had
+
 Screenshots to make reproduction faster for developers
 
 
 Test Evidence
+
 Screenshots from test runs are saved in the /screenshots folders. I captured these both during manual testing and automation runs to back up the bug reports and show what the tests actually verified.
 
 Assumptions I Made
+
 Since I was working without a formal requirements document, I made a few reasonable assumptions:
 
 -The app should follow standard web UI/UX conventions
+
 -Fields should have basic validation (required fields, correct formats, etc.)
+
 -UI-level validation was the focus since I had no access to backend or API behavior
+
 -The test environment stayed consistent throughout my testing
 
 
 What I Took Away From This
+
 Honestly, this project taught me a lot. A few things that stood out:
 
 -Thinking through test cases before automating saves a huge amount of time
+
 -Writing clear bug reports would defenitely help the development of a specific project or application
+
 -Playwright is surprisingly approachable once you get past the initial setup
+
 -Manual and automated testing genuinely complement each other 
+
 
 I'm still learning, but I feel like this project gave me a solid foundation and showed me how QA actually works in practice.
